@@ -38,3 +38,8 @@ auth:
   providers: [local]
   local:
     enableRegistration: true
+private:
+  enable: true
+  roster: online 
+  expire: 360 
+  
