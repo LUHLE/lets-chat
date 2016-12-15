@@ -24,7 +24,7 @@ files:
     dir: uploads
 
 xmpp:
-  enable: false
+  enable: true
   port: 5222
   domain: example.com
 
@@ -38,3 +38,7 @@ auth:
   providers: [local]
   local:
     enableRegistration: true
+private:
+  enable: true
+  roster: online # online / all
+  expire: 360 
