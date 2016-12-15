@@ -28,6 +28,19 @@ xmpp:
   port: 5222
   domain: example.com
 
+xmpp:
+  enable: true
+  roomCreation: false
+  debug:
+    handled: false
+    unhandled: false
+  port: 5222
+  domain: mycompany.com
+  tls:
+    enable: true
+    key: ./server.key
+    cert: ./server.crt
+    
 database:
   uri: mongodb://localhost/letschat
 
